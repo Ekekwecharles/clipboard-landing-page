@@ -1,0 +1,110 @@
+/* 375px */
+
+@media (max-width: 23.5em) {
+  html {
+    font-size: 50%;
+  }
+
+  .header__hero {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.041),
+        rgba(255, 255, 255, 0.85)
+      ),
+      url(./images/bg-header-mobile.png);
+    height: 35rem;
+  }
+
+  section {
+    margin: 0 4rem;
+  }
+
+  /* * {
+    border: 1px solid red;
+  } */
+
+  .primary-header,
+  .btn-box {
+    margin: 0 4rem;
+  }
+
+  .primary-header--main {
+    font-size: 3.8rem;
+  }
+
+  .btn {
+    display: block;
+    margin-bottom: 2.3rem;
+    width: 100%;
+    padding: 1.9rem 3.5rem;
+  }
+
+  .keep-track__features {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .keep-track__feat-box {
+    text-align: center;
+    gap: 7rem;
+  }
+
+  .keep-track,
+  .access,
+  .tools,
+  .featured,
+  .cta {
+    margin-bottom: 12rem;
+  }
+
+  .access img {
+    width: 100%;
+    transform: scale(1.15);
+  }
+
+  .tools__box {
+    flex-direction: column;
+    gap: 7rem;
+  }
+
+  .tool__item svg {
+    margin-bottom: 4rem;
+  }
+
+  .header-tertiary__info {
+    font-size: 1.8rem;
+  }
+
+  .featured__logos {
+    flex-direction: column;
+  }
+
+  .featured__logo {
+    height: 5rem;
+  }
+
+  .primary-header span,
+  .header-sec__info,
+  .tool__item,
+  .keep-track__feat {
+    width: auto;
+  }
+
+  .footer {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 4rem;
+  }
+
+  .footer__social-icons {
+    gap: 3rem;
+  }
+
+  .footer__policy,
+  .footer__install {
+    margin-top: -1rem;
+  }
+
+  .footer__social-icons {
+    margin: 4rem 0;
+  }
+}
