@@ -61,7 +61,7 @@ h3 {
 
 .primary-header span {
   display: block;
-  width: 70rem;
+  max-width: 70rem;
   display: inline-block;
 }
 
@@ -120,7 +120,7 @@ h3 {
 }
 
 .header-sec__info {
-  width: 70rem;
+  max-width: 70rem;
   display: inline-block;
   line-height: 1.6;
   margin-bottom: 7rem;
@@ -156,11 +156,15 @@ h3 {
 }
 
 .keep-track__feat {
-  width: 40rem;
+  max-width: 40rem;
 }
 
 .access {
   margin-bottom: 2rem;
+}
+
+.access img {
+  width: 60%;
 }
 
 .tools__box {
@@ -170,7 +174,7 @@ h3 {
 }
 
 .tool__item {
-  width: 350px;
+  max-width: 35rem;
   font-size: 1.6rem;
 }
 
@@ -183,6 +187,7 @@ h3 {
   justify-content: center;
   align-items: center;
   gap: 7rem;
+  flex-wrap: wrap;
 }
 
 .featured__logo {

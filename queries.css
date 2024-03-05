@@ -1,6 +1,6 @@
-/* 375px */
+/* 400px */
 
-@media (max-width: 23.5em) {
+@media (max-width: 25em) {
   html {
     font-size: 50%;
   }
